@@ -19,6 +19,7 @@ beforeEach( async () => {
 });
 
 describe ('Lottery', () => {
+    
     it('deploying control', () => {
         assert.ok(lottery.options.address);
     });
